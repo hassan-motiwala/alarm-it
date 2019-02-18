@@ -1,4 +1,4 @@
-function justDoIt(alarmIt) {    
+function alarmIt(data) {    
     browser.notifications.create({
     type: "basic",
     title: "TickStop",
